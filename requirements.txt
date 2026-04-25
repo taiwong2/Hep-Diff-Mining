@@ -1,0 +1,27 @@
+# Core
+python-dotenv>=1.0
+
+# PDF processing (optional, for supplement PDFs)
+marker-pdf>=1.0
+
+# HTTP/API
+requests>=2.31
+aiohttp>=3.9
+
+# Progress display
+tqdm>=4.66
+
+# Document processing (supplements)
+python-docx>=1.1
+openpyxl>=3.1
+pandas>=2.1
+
+# Graph analysis
+networkx>=3.2
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+
+# External requirement: NCBI EDirect CLI tools
+# Install from https://www.ncbi.nlm.nih.gov/books/NBK179288/

@@ -1,0 +1,496 @@
+{
+  "growth_factors": {
+    "HGF": [
+      "hepatocyte growth factor",
+      "hepatopoietin",
+      "hgf",
+      "scatter factor"
+    ],
+    "BMP4": [
+      "bmp-4",
+      "bmp4",
+      "bone morphogenetic protein 4"
+    ],
+    "BMP2": [
+      "bmp-2",
+      "bmp2",
+      "bone morphogenetic protein 2"
+    ],
+    "Activin A": [
+      "act-a",
+      "acta",
+      "activin a",
+      "activin-a",
+      "inhba"
+    ],
+    "EGF": [
+      "egf",
+      "epidermal growth factor"
+    ],
+    "FGF2": [
+      "basic fgf",
+      "basic fibroblast growth factor",
+      "bfgf",
+      "fgf-2",
+      "fgf2",
+      "fibroblast growth factor 2"
+    ],
+    "FGF4": [
+      "fgf-4",
+      "fgf4",
+      "fibroblast growth factor 4"
+    ],
+    "FGF10": [
+      "fgf-10",
+      "fgf10",
+      "fibroblast growth factor 10"
+    ],
+    "OSM": [
+      "oncostatin m",
+      "oncostatin-m",
+      "osm"
+    ],
+    "TGFα": [
+      "tgf-alpha",
+      "tgf-α",
+      "tgfa",
+      "tgfalpha",
+      "tgfα",
+      "transforming growth factor alpha"
+    ],
+    "VEGF": [
+      "vascular endothelial growth factor",
+      "vegf",
+      "vegf-a",
+      "vegfa"
+    ],
+    "KGF": [
+      "keratinocyte growth factor",
+      "kgf"
+    ],
+    "FGF7": [
+      "fgf-7",
+      "fgf7"
+    ],
+    "Wnt3a": [
+      "wnt 3a",
+      "wnt-3a",
+      "wnt3a"
+    ],
+    "TGFβ": [
+      "tgf-beta",
+      "tgf-β",
+      "tgf-β1",
+      "tgfb",
+      "tgfb1",
+      "tgfbeta",
+      "tgfβ",
+      "transforming growth factor beta"
+    ],
+    "FGF1": [
+      "acidic fgf",
+      "afgf",
+      "fgf-1",
+      "fgf1"
+    ],
+    "PDGF": [
+      "pdgf",
+      "platelet-derived growth factor"
+    ],
+    "SCF": [
+      "kit ligand",
+      "kitl",
+      "scf",
+      "stem cell factor"
+    ],
+    "IGF-1": [
+      "igf-1",
+      "igf1",
+      "insulin-like growth factor 1"
+    ],
+    "DKK1": [
+      "dickkopf 1",
+      "dickkopf-1",
+      "dkk-1",
+      "dkk1"
+    ],
+    "Noggin": [
+      "noggin"
+    ],
+    "R-Spondin": [
+      "r-spondin",
+      "r-spondin 1",
+      "rspo1",
+      "rspondin"
+    ],
+    "Jagged-1": [
+      "jag1",
+      "jagged-1",
+      "jagged1"
+    ]
+  },
+  "small_molecules": {
+    "dexamethasone": [
+      "dex",
+      "dexamethasone"
+    ],
+    "DMSO": [
+      "dimethyl sulfoxide",
+      "dimethylsulfoxide",
+      "dmso"
+    ],
+    "valproic acid": [
+      "sodium valproate",
+      "valproic acid",
+      "vpa"
+    ],
+    "nicotinamide": [
+      "nam",
+      "niacinamide",
+      "nicotinamide"
+    ],
+    "retinoic acid": [
+      "all-trans retinoic acid",
+      "atra",
+      "retinoic acid"
+    ],
+    "hydrocortisone": [
+      "hc",
+      "hydrocortisone"
+    ],
+    "insulin": [
+      "insulin"
+    ],
+    "ascorbic acid": [
+      "ascorbic acid",
+      "l-ascorbic acid",
+      "vitamin c"
+    ],
+    "sodium butyrate": [
+      "butyrate",
+      "nab",
+      "sodium butyrate"
+    ],
+    "CHIR99021": [
+      "chir",
+      "chir 99021",
+      "chir-99021",
+      "chir99021"
+    ],
+    "SB431542": [
+      "sb 431542",
+      "sb-431542",
+      "sb431542"
+    ],
+    "A83-01": [
+      "a 83-01",
+      "a83-01",
+      "a8301"
+    ],
+    "LDN193189": [
+      "ldn",
+      "ldn 193189",
+      "ldn-193189",
+      "ldn193189"
+    ],
+    "compound E": [
+      "compound e",
+      "cpd e"
+    ],
+    "Y-27632": [
+      "rock inhibitor y-27632",
+      "y-27632",
+      "y27632"
+    ],
+    "SB203580": [
+      "sb-203580",
+      "sb203580"
+    ],
+    "dorsomorphin": [
+      "compound c",
+      "dors",
+      "dorsomorphin"
+    ],
+    "IWP2": [
+      "iwp-2",
+      "iwp2"
+    ],
+    "IWR1": [
+      "iwr-1",
+      "iwr1",
+      "iwr1-endo"
+    ],
+    "PD0325901": [
+      "pd",
+      "pd-0325901",
+      "pd0325901"
+    ],
+    "SU5402": [
+      "su-5402",
+      "su5402"
+    ],
+    "forskolin": [
+      "forskolin",
+      "fsk"
+    ],
+    "dihexa": [
+      "dihexa"
+    ],
+    "5-aza-2′-deoxycytidine": [
+      "5-aza",
+      "5-aza-2'-deoxycytidine",
+      "5-aza-2′-deoxycytidine",
+      "5-azacytidine",
+      "5aza",
+      "azacytidine",
+      "decitabine"
+    ],
+    "trichostatin A": [
+      "trichostatin a",
+      "tsa"
+    ],
+    "XAV939": [
+      "xav-939",
+      "xav939"
+    ],
+    "ITS": [
+      "insulin-transferrin-selenium",
+      "its"
+    ],
+    "rapamycin": [
+      "rapamycin",
+      "sirolimus"
+    ],
+    "SB216763": [
+      "sb-216763",
+      "sb216763"
+    ]
+  },
+  "markers": {
+    "ALB": [
+      "alb",
+      "albumin",
+      "human albumin",
+      "serum albumin"
+    ],
+    "AFP": [
+      "afp",
+      "alpha fetoprotein",
+      "alpha-fetoprotein",
+      "alphafetoprotein",
+      "α-fetoprotein"
+    ],
+    "HNF4A": [
+      "hepatocyte nuclear factor 4 alpha",
+      "hepatocyte nuclear factor 4a",
+      "hnf-4a",
+      "hnf-4α",
+      "hnf4a",
+      "hnf4alpha",
+      "hnf4α"
+    ],
+    "SOX17": [
+      "sox-17",
+      "sox17"
+    ],
+    "FOXA2": [
+      "foxa-2",
+      "foxa2",
+      "hnf-3β",
+      "hnf3b",
+      "hnf3beta",
+      "hnf3β"
+    ],
+    "CXCR4": [
+      "cd184",
+      "cxcr-4",
+      "cxcr4"
+    ],
+    "CYP3A4": [
+      "cyp-3a4",
+      "cyp3a4",
+      "cytochrome p450 3a4"
+    ],
+    "CYP1A2": [
+      "cyp-1a2",
+      "cyp1a2",
+      "cytochrome p450 1a2"
+    ],
+    "CYP2C9": [
+      "cyp-2c9",
+      "cyp2c9"
+    ],
+    "CYP2B6": [
+      "cyp-2b6",
+      "cyp2b6"
+    ],
+    "CYP2D6": [
+      "cyp-2d6",
+      "cyp2d6"
+    ],
+    "CYP2C19": [
+      "cyp2c19"
+    ],
+    "OCT4": [
+      "oct-4",
+      "oct3/4",
+      "oct4",
+      "pou5f1"
+    ],
+    "NANOG": [
+      "nanog"
+    ],
+    "AAT": [
+      "a1-antitrypsin",
+      "a1at",
+      "aat",
+      "alpha-1 antitrypsin",
+      "alpha-1-antitrypsin",
+      "serpina1",
+      "α1-antitrypsin",
+      "α1at"
+    ],
+    "TTR": [
+      "prealbumin",
+      "transthyretin",
+      "ttr"
+    ],
+    "ASGR1": [
+      "asgpr1",
+      "asgr1",
+      "asialoglycoprotein receptor"
+    ],
+    "TBX3": [
+      "tbx3"
+    ],
+    "PROX1": [
+      "prox-1",
+      "prox1"
+    ],
+    "EpCAM": [
+      "cd326",
+      "ep-cam",
+      "epcam",
+      "epithelial cell adhesion molecule"
+    ],
+    "CK18": [
+      "ck18",
+      "cytokeratin 18",
+      "keratin 18",
+      "krt18"
+    ],
+    "CK19": [
+      "ck19",
+      "cytokeratin 19",
+      "keratin 19",
+      "krt19"
+    ],
+    "CK7": [
+      "ck7",
+      "cytokeratin 7",
+      "keratin 7",
+      "krt7"
+    ],
+    "GATA4": [
+      "gata-4",
+      "gata4"
+    ],
+    "GATA6": [
+      "gata-6",
+      "gata6"
+    ],
+    "SOX9": [
+      "sox9"
+    ],
+    "HHEX": [
+      "hex",
+      "hhex"
+    ],
+    "HNF1B": [
+      "hnf-1b",
+      "hnf-1β",
+      "hnf1b",
+      "hnf1beta",
+      "hnf1β"
+    ],
+    "HNF1A": [
+      "hnf-1a",
+      "hnf-1α",
+      "hnf1a",
+      "hnf1alpha",
+      "hnf1α"
+    ],
+    "HNF6": [
+      "hnf6",
+      "oc-1",
+      "onecut1"
+    ],
+    "FOXA1": [
+      "foxa-1",
+      "foxa1",
+      "hnf3alpha",
+      "hnf3α"
+    ],
+    "DLK1": [
+      "delta-like 1",
+      "dlk-1",
+      "dlk1"
+    ],
+    "GSC": [
+      "goosecoid",
+      "gsc"
+    ],
+    "MIXL1": [
+      "mixl1"
+    ],
+    "SSEA4": [
+      "ssea-4",
+      "ssea4"
+    ],
+    "TRA-1-60": [
+      "tra-1-60",
+      "tra160"
+    ],
+    "TRA-1-81": [
+      "tra-1-81",
+      "tra181"
+    ],
+    "A1AT": [
+      "a1at",
+      "α1at"
+    ],
+    "NTCP": [
+      "ntcp",
+      "slc10a1",
+      "sodium taurocholate cotransporting polypeptide"
+    ],
+    "MRP2": [
+      "abcc2",
+      "mrp2"
+    ],
+    "BSEP": [
+      "abcb11",
+      "bsep"
+    ],
+    "UGT1A1": [
+      "ugt1a1"
+    ],
+    "TAT": [
+      "tat",
+      "tyrosine aminotransferase"
+    ],
+    "TDO2": [
+      "tdo2",
+      "tryptophan 2,3-dioxygenase"
+    ],
+    "G6PC": [
+      "g6pc",
+      "glucose-6-phosphatase"
+    ],
+    "PCK1": [
+      "pck1",
+      "pepck",
+      "phosphoenolpyruvate carboxykinase"
+    ]
+  }
+}

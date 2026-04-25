@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "cell-differentiation-mining"
+version = "1.0.0"
+description = "Mining hepatocyte differentiation protocols from PMC open-access literature using LLM-based extraction"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "Tai Wong", email = "taiwong263@gmail.com"},
+    {name = "Aras Mattis", email = "Aras.mattis@ucsf.edu"},
+]
+keywords = [
+    "hepatocyte",
+    "iPSC",
+    "cell differentiation",
+    "text mining",
+    "protocol extraction",
+    "NLP",
+    "LLM",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Text Processing :: General",
+]
+dependencies = [
+    "aiohttp>=3.9",
+    "networkx>=3.2",
+    "openpyxl>=3.1",
+    "pandas>=2.1",
+    "python-docx>=1.1",
+    "python-dotenv>=1.0",
+    "requests>=2.31",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+pdf = [
+    "marker-pdf>=1.0",
+]
+legacy-docs = [
+    "olefile>=0.47",
+    "python-pptx>=0.6",
+]
+dev = [
+    "pytest>=7.4",
+    "pytest-asyncio>=0.23",
+]
+all = [
+    "cell-differentiation-mining[pdf,legacy-docs,dev]",
+]
+
+[project.urls]
+Repository = "https://github.com/taiwong2/CellDifferentiationMining"
+
+[project.scripts]
+cdm-pipeline = "run_pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["data_layer*", "llm*", "tools*", "steps*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
