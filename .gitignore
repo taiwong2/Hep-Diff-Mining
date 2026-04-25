@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.installed.cfg
+build/
+dist/
+sdist/
+wheels/
+develop-eggs/
+eggs/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets — never commit real keys
+.env
+
+# Data directory (all generated/downloaded data)
+data/
+
+# IDE
+.idea/
+.vscode/
+
+# Testing / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+nosetests.xml
+coverage.xml
+
+# mypy / pyright / pytype
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+pyrightconfig.json
+
+# Ruff
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Manuscript (keep separate from code repo)
+manuscript/
+manuscript copy.zip
+
+# Manual PDFs / data manifests
+data_layer/manual_pdfs/
+
+# Internal scripts (figure generation, one-off analysis, dev utilities)
+scripts/generate_figures*.py
+scripts/temporal_distribution.py
+scripts/test_expression_coverage.py
+scripts/import_from_xlsx.py
+scripts/geo_enrich.py
+
+# Internal design docs (superseded by README)
+docs/
+
+# Misc
+*.log
+temp/
+tmpclaude-*
+
+# Claude Code (local settings)
+.claude/
+CLAUDE.md
+ZENODO_UPDATE_INSTRUCTIONS.md
