@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Cell Differentiation Mining: LLM-Based Protocol Extraction from Biomedical Literature"
+authors:
+  - family-names: Wong
+    given-names: Tai
+    email: taiwong263@gmail.com
+version: 1.0.0
+date-released: "2026-04-25"
+license: MIT
+repository-code: https://github.com/taiwong2/CellDifferentiationMining
+# TODO: uncomment and fill in after Zenodo deposit
+# doi: 10.5281/zenodo.XXXXXXX
+# url: https://doi.org/10.5281/zenodo.XXXXXXX
+keywords:
+  - hepatocyte
+  - iPSC
+  - cell differentiation
+  - text mining
+  - protocol extraction
+  - LLM
