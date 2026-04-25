@@ -6,6 +6,9 @@ authors:
   - family-names: Wong
     given-names: Tai
     email: taiwong263@gmail.com
+  - family-names: Mattis
+    given-names: Aras
+    email: Aras.mattis@ucsf.edu
 version: 1.0.0
 date-released: "2026-04-25"
 license: MIT

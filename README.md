@@ -241,7 +241,7 @@ If you use this software in your research, please cite:
 
 ```bibtex
 @software{wong2026celldiff,
-  author = {Wong, Tai},
+  author = {Wong, Tai and Mattis, Aras},
   title = {Cell Differentiation Mining: LLM-Based Protocol Extraction from Biomedical Literature},
   year = {2026},
   publisher = {Zenodo},
@@ -256,7 +256,7 @@ The extracted protocol dataset is available at:
 
 ```bibtex
 @dataset{wong2026celldiff_data,
-  author = {Wong, Tai},
+  author = {Wong, Tai and Mattis, Aras},
   title = {Hepatocyte Differentiation Protocol Database},
   year = {2026},
   publisher = {Zenodo},

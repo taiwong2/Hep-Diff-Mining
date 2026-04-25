@@ -11,6 +11,7 @@ license = "MIT"
 requires-python = ">=3.10"
 authors = [
     {name = "Tai Wong", email = "taiwong263@gmail.com"},
+    {name = "Aras Mattis", email = "Aras.mattis@ucsf.edu"},
 ]
 keywords = [
     "hepatocyte",
